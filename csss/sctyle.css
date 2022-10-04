@@ -78,12 +78,31 @@ p{
     position: absolute;
      left: 250px;
      bottom: 300px;
-}
+     animation-name: bottom-cloud;
+     animation-duration: 6s;
+     animation-iteration-count: infinite;
+   }
+   
+   @keyframes bottom-cloud {
+     0% {
+       right: 250px;
+       top: 530px;
+     }   
+   }
 .topcloud{
     position: absolute;
     right: 300px;
     top: 40px;
-   
+    animation-name: top-cloud;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes top-cloud {
+  0% {
+    right: 250px;
+    top: 120px;
+  }   
 }
 
 .profilepic{
